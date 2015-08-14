@@ -118,6 +118,7 @@ $(document).ready(function() {
 </div>
 {% block all_content%}
 <div class="container mtb">
+<div class="row"></div>
 <div class="row">
 {% block left_wrapper%}
 <div class="col-md-{% block left_width %}2{% endblock %} left">
@@ -152,39 +153,36 @@ $(document).ready(function() {
 
 <div id="footerwrap">
 <div class="container">
-	<div class="row">
-	<div class="col-lg-6">
-		 		{% page_menu "pages/menus/footer.html" %}	
-	</div>
-	<div class="col-lg-3">
+	<div class="col-lg-4"></div>
+	<div class="col-lg-4">
 		 			<h4>Social Links</h4>
 		 			<div class="hline-w"></div>
 		 			<p>
-		 				<a href="#"><i class="fa fa-dribbble"></i></a>
-		 				<a href="#"><i class="fa fa-facebook"></i></a>
-		 				<a href="#"><i class="fa fa-twitter"></i></a>
-		 				<a href="#"><i class="fa fa-instagram"></i></a>
-		 				<a href="#"><i class="fa fa-tumblr"></i></a>
+		 				<a href="http://www.github.com/karnyong"><i class="fa fa-github"></i></a>
+		 				<a href="http://www.facebook.com/karnyong"><i class="fa fa-facebook"></i></a>
+		 				<a href="http://www.twitter.com/karnyong"><i class="fa fa-twitter"></i></a>
+		 				<a href="http://www.instagram.com/karnyong"><i class="fa fa-instagram"></i></a>
+		 				<a href="https://plus.google.com/116926066146215031029"><i class="fa fa-google-plus"></i></a>
 		 			</p>
 		 		</div>
-		 		<div class="col-lg-3">
-		 			<h4>Our Bunker</h4>
-		 			<div class="hline-w"></div>
-		 			<p>
-		 				Some Ave, 987,<br/>
-		 				23890, New York,<br/>
-		 				United States.<br/>
-		 			</p>
-		 		</div>
-		 	
 		</div>
+	<div class="col-lg-4"></div>
 
 <div class="row">
+
 <p class="site-info text-center">
+    {% trans "Created by" %}
+    <a href="https://www.djangoproject.com/">Django</a>
+    {% trans "Python Web framework and" %}
+    <a href="http://mezzanine.jupo.org/">Mezzanine</a>
+    {% trans "Django CMS" %}
+    <br>
     {% trans "Template by" %}
     <a href="http://www.blacktie.co">Blacktie</a>
     {% trans "Mezzanine theme by" %}
     <a href="http://thecodinghouse.in">CodingHouse</a>
+    <br>
+    {% trans "© karnyong.com All rights reserved." %}
     
 </p>
 </div>

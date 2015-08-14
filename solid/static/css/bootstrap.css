@@ -3924,6 +3924,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 14px;
 }
 .navbar-text {
+  color: green;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -3977,7 +3978,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
+  background-color: #00ffbb;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #888;
